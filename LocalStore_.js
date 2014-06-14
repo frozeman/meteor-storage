@@ -1,5 +1,5 @@
 
-
+// the localstorage wrapper class
 LocalStore = {
 	set: function(key, value, callback){
 
