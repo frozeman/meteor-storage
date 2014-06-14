@@ -7,8 +7,8 @@ Package.on_use(function (api) {
     api.use('localstorage', 'client');
 
     // EXPORT
-    api.export('Storage');
+    api.export('LocalStore');
 
     // FILES
-    api.add_files('Storage.js', 'client');
+    api.add_files('LocalStore.js', 'client');
 });

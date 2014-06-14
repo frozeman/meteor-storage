@@ -11,12 +11,12 @@ This is a simple wrapper for localstorage, which will use chrome.storage.local i
 
 To set an item just use:
 
-    Storage.set('myKey', {my: 'Object'});
+    LocalStore.set('myKey', {my: 'Object'});
 
     // or
 
-    Storage.set('myKey', 'myString');
+    LocalStore.set('myKey', 'myString');
 
 To get:
 
-    var value = Storage.get('myKey');
+    var value = LocalStore.get('myKey');

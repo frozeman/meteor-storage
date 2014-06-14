@@ -1,6 +1,6 @@
 
 
-Storage = {
+LocalStore = {
 	set: function(key, value, callback){
 
 		// use chrome storage
