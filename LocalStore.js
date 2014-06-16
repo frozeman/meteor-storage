@@ -60,7 +60,7 @@ LocalStore = {
         this._ensureDeps(key);
 
 		// USE CHROME STORAGE
-		if(chrome && chrome.storage) {
+		if(typeof chrome !== 'undefined' && chrome.storage) {
 			var item = {};
 			item[key] = value;
 
@@ -106,7 +106,7 @@ LocalStore = {
 
 
 		// use chrome storage
-		if(chrome && chrome.storage) {
+		if(typeof chrome !== 'undefined' && chrome.storage) {
 
 			// get
 			chrome.storage.local.get(key, callback);
