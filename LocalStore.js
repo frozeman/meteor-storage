@@ -84,7 +84,12 @@ LocalStore = {
 				value = EJSON.stringify(value);
 
 			// set
-			localStorage.setItem(key, value);
+            // use try to prevent warnings from low cache storages
+            try {
+    			localStorage.setItem(key, value);
+            } catch(e) {
+
+            }
 
 			// re-run reactive functions
 			if(!options || options.reactive !== false)
