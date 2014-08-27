@@ -1,7 +1,7 @@
 Package.describe({
     name: "mrt:storage",
-    summary: "A wrapper for localStorage, which will use chrome.storage if used in a chrome packaged app",
-    version: "0.1.3",
+    summary: "A reactive wrapper for localStorage, which will use chrome.storage if used in a chrome packaged app",
+    version: "0.1.6",
     git: "https://github.com/frozeman/meteor-storage.git"
 });
 
