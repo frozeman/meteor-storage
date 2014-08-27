@@ -1,7 +1,7 @@
 Installation
 -----------
 
-    $ mrt add storage
+    $ meteor add mrt:storage
 
 
 Description

@@ -1,8 +1,14 @@
 Package.describe({
-    summary: "A wrapper for localStorage, which will use chrome.storage if used in a chrome packaged app"
+    name: "mrt:storage",
+    summary: "A wrapper for localStorage, which will use chrome.storage if used in a chrome packaged app",
+    version: "0.1.3",
+    git: "https://github.com/frozeman/meteor-storage.git"
 });
 
-Package.on_use(function (api) {
+Package.onUse(function (api) {
+    api.versionsFrom('METEOR@0.9.0');
+
+    // core
     api.use('underscore', 'client');
     api.use('localstorage', 'client');
 
@@ -10,5 +16,5 @@ Package.on_use(function (api) {
     api.export('LocalStore');
 
     // FILES
-    api.add_files('LocalStore.js', 'client');
+    api.addFiles('LocalStore.js', 'client');
 });

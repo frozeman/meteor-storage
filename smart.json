@@ -1,9 +1,0 @@
-{
-  "name": "storage",
-  "description": "A wrapper for localStorage, which will use chrome.storage if used in a chrome packaged app",
-  "homepage": "https://github.com/frozeman/meteor-storage.git",
-  "author": "Fabian Vogelsteller (http://frozeman.de)",
-  "version": "0.1.2",
-  "git": "https://github.com/frozeman/meteor-storage.git",
-  "packages": {}
-}
