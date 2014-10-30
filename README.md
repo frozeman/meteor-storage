@@ -1,7 +1,7 @@
 Installation
 -----------
 
-    $ meteor add mrt:storage
+    $ meteor add frozeman:storage
 
 
 Description

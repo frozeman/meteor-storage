@@ -32,7 +32,7 @@ LocalStore = {
     @example
 
         {
-            name->myProperty: new Deps.Dependency,
+            name->myProperty: new Tracker.Dependency,
             ...
         }
 
@@ -43,7 +43,7 @@ LocalStore = {
 
     // PRIVATE
     /**
-    Creates at least ones a `Deps.Dependency` object to a key.
+    Creates at least ones a `Tracker.Dependency` object to a key.
 
     @method _ensureDeps
     @private
@@ -52,7 +52,7 @@ LocalStore = {
     **/
     _ensureDeps: function (key) {
         if (!this.deps[key]){
-            this.deps[key] = new Deps.Dependency;
+            this.deps[key] = new Tracker.Dependency;
         }
     },
 	set: function(key, value, options, callback){
