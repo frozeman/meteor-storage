@@ -10,6 +10,7 @@ Package.onUse(function (api) {
 
     // core
     api.use('underscore', 'client');
+    api.use('ejson', 'client');
     api.use('localstorage', 'client');
 
     // EXPORT
