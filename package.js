@@ -1,7 +1,7 @@
 Package.describe({
     name: "frozeman:storage",
     summary: "A reactive wrapper for localStorage, which will use chrome.storage if used in a chrome packaged app",
-    version: "0.1.8",
+    version: "0.1.9",
     git: "https://github.com/frozeman/meteor-storage.git"
 });
 
